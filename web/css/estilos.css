@@ -1,7 +1,27 @@
-header, footer{
+body{
+	background: #F2F2F2;
+}
+hr{
+	border-top: 1px solid #585858;
+}
+header, footer, .back{
 	background: #FF00FF;
 }
+header .col a{
+	margin-top: 20px;
+}
+footer{
+	color: #FFF;
+	text-shadow: .5px .5px #1C1C1C;
+}
+footer a{
+	color: #E6E6E6;
+}
+footer a:hover{
+	color: #BDBDBD;
+}
 .logo img{
+	padding: 10px;
 	width: 80px;
 }
 footer{
@@ -10,5 +30,19 @@ footer{
 .play img{
 	width: 120px;
 }
+.auto > a > span, .chofer> a > span{
+	color: #FF00FF;
+	font-size: 150px;
+	text-shadow: 3px 3px #585858;
+}
+.auto > a > label, .chofer> a > label{
+	font-size: 28px;
+	font-weight: bold;
+	color: #DF01D7;
+	text-shadow: .7px .7px #585858;
 
+}
+a:hover{
+	text-decoration: none;
+}
 

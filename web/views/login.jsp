@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_registrarme.jsp" />
+	<hr />
 	<section class="text-center">
 		<div class="container">
 			<div class="row">

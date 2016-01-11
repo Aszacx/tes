@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_iniciarSesion.jsp" />
+	<hr />
 	<section class="text-center">
 		<div class="container">
 			<div class="row">
@@ -9,6 +10,8 @@
 	                <div class="row">
 	                	<h3>Regístrate</h3>
 	                	<span>Todos los campos son obligatorios</span>
+	                	<br />
+	                	<a href="preregistro_chofer.jsp" class="btn btn-success">¡Soy Chofer!</a>
 	                	<hr />
 	                	<form class="form-horizontal">
 							<div class="form-group">

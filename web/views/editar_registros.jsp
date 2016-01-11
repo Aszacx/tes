@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_cerrarSesion.jsp" />
+	<hr />
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-0 col-sm-1 col-md-1"></div>
@@ -98,7 +99,7 @@
 			<div class="col-xs-0 col-sm-1 col-md-1"></div>
 		</div>
 	</div>
-<jsp:include page="../layout/footer.html" />
+<jsp:include page="../layout/footer.jsp" />
 	<!--Modal Eliminar Chofer-->
 	<div class="modal fade" id="ChoferEliminar" tabindex="-1" role="dialog" aria-labelledby="ModalLabel">
 		<div class="modal-dialog" role="document">

@@ -14,24 +14,24 @@
 					  </ol>
 					  <div class="carousel-inner" role="listbox">
 					    <div class="item active">
-					      <img src="img/servicio.jpg" alt="">
-					      <div class="carousel-caption">
-					        <h3>Esto es mi título</h3>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae velit ducimus.</p>
-					      </div>
-					    </div>
-					    <div class="item">
 					      <img src="img/taxis.jpg" alt="">
 					      <div class="carousel-caption">
-					        <h3>Esto es mi título</h3>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione.</p>
+					        <h4>Conoce TES, la aplicación para transportarte</h4>
+    						<p>Haz que tu solicitud se convierta en una experiencia excepcional.</p>
 					      </div>
 					    </div>
 					    <div class="item">
-					      <img src="http://placehold.it/700x400" alt="">
+					      <img src="img/servicio.jpg" alt="">
 					      <div class="carousel-caption">
-					        <h3>Esto es mi título</h3>
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ratione.</p>
+					        <h4>Solicitar un chofer nunca habia sido tan fácil</h4>
+    						<p>Seleccionamos cuidadosamente a los choferes de nuestra comunidad.</p>
+					      </div>
+					    </div>
+					    <div class="item">
+					      <img src="img/app.jpg" alt="">
+					      <div class="carousel-caption">
+					        <h3>Mayor Seguridad</h3>
+    						<p>Todos los pasajeros deben registrar sus datos para usar su cuenta.</p>
 					      </div>
 					    </div>
 					  </div>

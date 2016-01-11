@@ -12,17 +12,16 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col col-xs-6 col-sm-6 col-md-4">
+				<div class="col col-xs-0 col-sm-0 col-md-4">
 				</div>
 		        <div class="col col-xs-6 col-sm-6 col-md-4">
-		            <figure>
+		            <figure class="logo">
 			           	<img class="img-responsive center-block" src="../img/logo.png" alt="Taxi Eficiente y Seguro">
 		            </figure>
 				</div>	
-				<div class="col col-xs-12 col-sm-12 col-md-4">
+				<div class="col col-xs-6 col-sm-6 col-md-4">
 					<a class="btn btn-default" href="../views/login.jsp">Iniciar Sesión</a>
 				</div>
 			</div>
-			<hr />
 		</div>	
 	</header>

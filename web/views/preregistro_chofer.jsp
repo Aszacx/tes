@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_iniciarSesion.jsp" />
+	<hr />
 	<section class="text-center">
 		<div class="container">
 			<div class="row">
@@ -112,4 +113,4 @@
 			</div>
 		</div>	
 	</section>
-<jsp:include page="../layout/footer.html" />
+<jsp:include page="../layout/footer.jsp" />
