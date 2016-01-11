@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../frameworks/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="../css/estilos.css">
-	<title>Document</title>
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col col-xs-6 col-sm-6 col-md-4">
-					<span class="glyphicon glyphicon-menu-hamburger"></span>
-				</div>
-	            <div class="col col-xs-6 col-sm-6 col-md-4">
-	                <figure>
-	                	<img class="img-responsive center-block" src="../img/logo.png" alt="Taxi Eficiente y Seguro">
-	                </figure>
-				</div>	
-				<div class="col col-xs-12 col-sm-12 col-md-4">
-					<a class="btn btn-primary" href="">Cerrar Sesión</a>
-				</div>
-			</div>
-			<hr />
-		</div>	
-	</header>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<jsp:include page="../layout/header_iniciarSesion.jsp" />
 	<section class="text-center">
 		<div class="container">
 			<div class="row">
@@ -33,7 +7,7 @@
 				</div>
 	            <div class="col col-xs-12 col-sm-10 col-md-6">
 	                <div class="row">
-	                	<h3>Registro de Chofer</h3>
+	                	<h3>Pre-registro de Chofer</h3>
 	                	<span>Todos los campos son obligatorios</span>
 	                	<hr />
 	                	<form class="form-horizontal">
@@ -122,51 +96,11 @@
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-									<div class="input-group">
-										<label class="input-group-addon"><span class="glyphicon glyphicon-file"></span></label>
-									    <input type="text" class="form-control" id="" placeholder="Folio Acta de Nacimiento">
-								    </div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
-							<h5>Documentación</h5>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-									<div class="input-group">
-										<label class="input-group-addon"><span class="glyphicon glyphicon-file"></span></label>
-									    <input type="text" class="form-control" id="" placeholder="Folio Antecedentes no Penales">
-								    </div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-									<div class="input-group">
-										<label class="input-group-addon"><span class="glyphicon glyphicon-file"></span></label>
-									    <input type="text" class="form-control" id="" placeholder="Clave de Tarjetón">
-								    </div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-									<div class="input-group">
-										<label class="input-group-addon"><span class="glyphicon glyphicon-file"></span></label>
-									    <input type="text" class="form-control" id="" placeholder="No. de Automovilista">
-								    </div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
 							<div class="form-group text-right">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-6">
-							      <a href="" class="btn btn-default">Guardar Registro</a>
+							      <a href="" class="btn btn-default">Generar Cita</a>
+							      <a href="" class="btn btn-default">Cancelar</a>
 							    </div>
 							    <div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
@@ -178,19 +112,4 @@
 			</div>
 		</div>	
 	</section>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col col-xs-6 col-sm-6 col-md-6">
-					<h5 class="text-center">© Copyright 2015 by TES. All Rights Reserved.</h5>
-				</div>
-				<div class="col col-xs-6 col-sm-6 col-md-6">
-					<h5 class="text-right">Facebook | Twitter | |LinkedIn</h5>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="../js/jquery-1.11.1.min.js"></script>
-	<script src="../frameworks/bootstrap/bootstrap.min.js"></script>
-</body>
-</html>
+<jsp:include page="../layout/footer.html" />

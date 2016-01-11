@@ -1,14 +1,14 @@
-.col{
-	
+header, footer{
+	background: #FF00FF;
 }
-header .col h1 img{
-	width: 150px;
+.logo img{
+	width: 80px;
 }
-.fp-brand{
-   display: none;
+footer{
+	bottom: 0;
+}
+.play img{
+	width: 120px;
 }
 
-.oculto{
-	display:none;
-}
 
