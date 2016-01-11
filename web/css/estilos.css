@@ -30,15 +30,27 @@ footer{
 .play img{
 	width: 120px;
 }
-.auto > a > span, .chofer> a > span{
+.auto > a > span, .chofer > a > span, .editar > a > span{
 	color: #FF00FF;
 	font-size: 150px;
 	text-shadow: 3px 3px #585858;
 }
-.auto > a > label, .chofer> a > label{
+.auto > a > span:hover{
+	color: #F781F3;
+	font-size: 145px;
+}
+.chofer > a > span:hover{
+	color: #F781F3;
+	font-size: 145px;
+}
+.editar > a > span:hover{
+	color: #F781F3;
+	font-size: 145px;
+}
+.auto > a > label, .chofer > a > label, .editar > a > label{
 	font-size: 28px;
 	font-weight: bold;
-	color: #DF01D7;
+	color: #FF00FF;
 	text-shadow: .7px .7px #585858;
 
 }

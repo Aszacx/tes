@@ -15,7 +15,7 @@
 	                </div>
 				</div>
 				<div class="col col-xs-12 col-sm-6 col-md-4">
-	                <div class="auto row">
+	                <div class="editar row">
 	                	<a href="editar_registros.jsp"><span class="glyphicon glyphicon-edit"></span><br /><label>Editar Registros</label></a>
 	                </div>
 				</div>
