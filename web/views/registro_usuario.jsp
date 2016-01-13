@@ -12,6 +12,7 @@
 	                	<span>Todos los campos son obligatorios</span>
 	                	<br />
 	                	<a href="preregistro_chofer.jsp" class="btn btn-success">¡Soy Chofer!</a>
+	                	<a href="preregistro_socio.jsp" class="btn btn-success">¡Soy Socio!</a>
 	                	<hr />
 	                	<form class="form-horizontal">
 							<div class="form-group">
@@ -44,6 +45,16 @@
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
+							<div class="form-group">
+								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
+								<div class="col col-xs-10 col-sm-6 col-md-6">
+				            		<div class="input-group">
+										<label class="input-group-addon">Foto:</label>
+										<input type="file" class="form-control" id="">
+									</div>
+								</div>
+								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
+		          			</div>
 							<div class="form-group">
 								<div class="col col-xs-1 col-sm-3 col-md-1"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-10">
@@ -87,6 +98,30 @@
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 								<div class="col col-xs-10 col-sm-6 col-md-6">
 									<div class="input-group">
+										<label class="input-group-addon"><span class="glyphicon glyphicon-home "></span></label>
+									    <input type="text" class="form-control" id="" placeholder="Colonia">
+								    </div>
+								</div>
+								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
+							</div>
+							<div class="form-group">
+								<div class="col col-xs-1 col-sm-2 col-md-2"></div>
+							    <div class="col col-xs-10 col-sm-8 col-md-8">
+							    	<div class="input-group">
+								      	<label class="input-group-addon">Calle:</label>
+								      	<input type="text" class="form-control" id="">
+								      	<label class="input-group-addon">No. Int:</label>
+								      	<input type="text" class="form-control" id="">
+								      	<label class="input-group-addon">No. Ext:</label>
+								      	<input type="text" class="form-control" id="">
+								    </div>
+							    </div>
+							    <div class="col col-xs-1 col-sm-2 col-md-2"></div>
+							</div>
+							<div class="form-group">
+								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
+								<div class="col col-xs-10 col-sm-6 col-md-6">
+									<div class="input-group">
 										<label class="input-group-addon"><span class="glyphicon glyphicon-lock "></span></label>
 									    <input type="password" class="form-control" id="" placeholder="Contraseña">
 								    </div>
@@ -117,7 +152,7 @@
 							    <div class="col col-xs-10 col-sm-6 col-md-8">
 							    	<div class="input-group">
 										<label class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></label>
-								      	<input type="text" class="form-control" id="" placeholder="Número de Tarjeta">
+								      	<input type="text" class="form-control" id="" placeholder="No. de Tarjeta">
 								      	<label class="input-group-addon">CVV</label>
 								      	<input type="number" class="form-control" id="">
 								    </div>

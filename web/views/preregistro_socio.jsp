@@ -8,7 +8,7 @@
 				</div>
 	            <div class="col col-xs-12 col-sm-10 col-md-6">
 	                <div class="row">
-	                	<h3>Pre-registro de Chofer</h3>
+	                	<h3>Pre-registro de Socio</h3>
 	                	<span>Todos los campos son obligatorios</span>
 	                	<hr />
 	                	<form class="form-horizontal">
