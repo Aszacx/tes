@@ -7,8 +7,11 @@ hr{
 header, footer, .back{
 	background: #FF00FF;
 }
-header .col a{
+header .col a, header .col .dropdown button{
 	margin-top: 20px;
+}
+.dropdown-menu li a{
+	margin-top: 1px;
 }
 footer{
 	color: #FFF;
@@ -52,7 +55,6 @@ footer{
 	font-weight: bold;
 	color: #FF00FF;
 	text-shadow: .7px .7px #585858;
-
 }
 a:hover{
 	text-decoration: none;
