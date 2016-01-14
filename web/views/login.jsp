@@ -39,20 +39,17 @@
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
-										
-							<div class="form-group text-right">
-								<div class="col col-xs-1 col-sm-5 col-md-3"></div>
-							    <div class="col col-sm-offset-1 col-xs-9 col-sm-5 col-md-5">
-							      
-							    </div>
-							    <div class="col col-xs-1 col-sm-5 col-md-3"></div>
-							</div>
 						</form>
-							    <button type="submit" onclick="login()" class="btn btn-default">Ingresar</button>
+						<div class="text-right">
+							<div class="col col-xs-1 col-sm-5 col-md-3"></div>
+						    <div class="col col-sm-offset-1 col-xs-9 col-sm-5 col-md-5">
+						      <button type="submit" onclick="login()" class="btn btn-default">Ingresar</button>
+						    </div>
+						    <div class="col col-xs-1 col-sm-5 col-md-3"></div>
+						</div>	    
+		            <br>
 	                <hr />
-		                	<span>
-		                		<span>¿Aún no tienes cuenta? <a href="registro_usuario.jsp">Registrate</a></span>
-		                	</span>
+		             	<span>¿Aún no tienes cuenta? <a href="registro_usuario.jsp">Registrate</a></span>
 	                </div>
 				</div>	
 				<div class="col col-xs-0 col-sm-1 col-md-3">

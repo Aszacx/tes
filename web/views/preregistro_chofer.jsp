@@ -103,7 +103,7 @@
 							<div class="form-group text-right">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-6">
-							      <a  href="" class="btn btn-default" id="click">Generar Cita</a>
+							      <a  href="preregistro_chofer_folio.jsp" class="btn btn-default" id="click">Generar Cita</a>
 							      <a href="" class="btn btn-default">Cancelar</a>
 							    </div>
 							    <div class="col col-xs-1 col-sm-3 col-md-3"></div>

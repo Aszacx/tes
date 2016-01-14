@@ -18,6 +18,5 @@
 		 	
 		</div>	
 	</section>
-
-   
+	<br>
 <jsp:include page="../layout/footer.jsp" />

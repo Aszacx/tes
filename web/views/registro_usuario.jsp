@@ -15,6 +15,7 @@
 	                	<span>Todos los campos son obligatorios</span>
 	                	<br />
 	                	<a href="preregistro_chofer.jsp" class="btn btn-success">¡Soy Chofer!</a>
+	                	<a href="preregistro_socio.jsp" class="btn btn-success">¡Soy Socio!</a>
 	                	<hr />
 	                	<p id="hideR"></p>
 	                	<form class="form-horizontal">
@@ -156,15 +157,14 @@
   								<label><input type="checkbox" value="">Acepto Términos y Condiciones</label>
 							</div>
 							<br />
-							<div class="form-group text-right">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							    <div class="col col-xs-10 col-sm-6 col-md-6">
-							      
-							    </div>
-							    <div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
 						</form>
-						<button type="submit" onclick="registroUsuario()" class="btn btn-default">Registrarse</button>
+						<div class="text-right">
+							<div class="col col-xs-1 col-sm-3 col-md-3"></div>
+						    <div class="col col-xs-10 col-sm-6 col-md-6">
+						      <button type="submit" onclick="registroUsuario()" class="btn btn-default">Registrarse</button>
+						    </div>
+						    <div class="col col-xs-1 col-sm-3 col-md-3"></div>
+						</div>
 	                </div>
 				</div>	
 				<div class="col col-xs-0 col-sm-1 col-md-3">
@@ -172,5 +172,6 @@
 			</div>
 		</div>	
 	</section>
+	<br>
 <jsp:include page="../layout/footer.jsp" />
 	
