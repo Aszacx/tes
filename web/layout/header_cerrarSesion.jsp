@@ -21,7 +21,7 @@
 		            </figure>
 				</div>	
 				<div class="col col-xs-6 col-sm-6 col-md-4">
-					<a class="btn btn-default" href="">Cerrar Sesión</a>
+					<a class="btn btn-default" href="../index.jsp">Cerrar Sesión</a>
 				</div>
 			</div>
 		</div>	

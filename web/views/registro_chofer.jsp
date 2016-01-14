@@ -1,5 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_cerrarSesion.jsp" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 	<hr /> 
 	<section class="text-center">
 		<div class="container">
@@ -11,7 +13,7 @@
 	                	<h3>Registro de Chofer</h3>
 	                	<span>Todos los campos son obligatorios</span>
 	                	<hr />
-	                	<form class="form-horizontal">
+	                	<form class="form-horizontal" >
 							<div class="form-group">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 								<div class="col col-xs-10 col-sm-6 col-md-6">
@@ -141,11 +143,12 @@
 							<div class="form-group text-right">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-6">
-							      <a href="" class="btn btn-default">Guardar Registro</a>
+							   
 							    </div>
 							    <div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
 						</form>
+						<button type="submit" class="btn btn-default">Guardar Registro</button>
 	                </div>
 				</div>	
 				<div class="col col-xs-0 col-sm-1 col-md-3">
