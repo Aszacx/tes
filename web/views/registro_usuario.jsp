@@ -1,5 +1,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="../layout/header_iniciarSesion.jsp" />
+<script type="text/javascript" src="../js/log.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 	<hr />
 	<section class="text-center">
 		<div class="container">
@@ -12,15 +15,15 @@
 	                	<span>Todos los campos son obligatorios</span>
 	                	<br />
 	                	<a href="preregistro_chofer.jsp" class="btn btn-success">¡Soy Chofer!</a>
-	                	<a href="preregistro_socio.jsp" class="btn btn-success">¡Soy Socio!</a>
 	                	<hr />
+	                	<p id="hideR"></p>
 	                	<form class="form-horizontal">
 							<div class="form-group">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 								<div class="col col-xs-10 col-sm-6 col-md-6">
 									<div class="input-group">
 										<label class="input-group-addon">Nombre(s):</label>
-									    <input type="text" class="form-control" id="" placeholder="Escribe tu nombre">
+									    <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
 								    </div>
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
@@ -30,7 +33,7 @@
 								<div class="col col-xs-10 col-sm-6 col-md-6">
 									<div class="input-group">
 										<label class="input-group-addon">Paterno:</label>
-									    <input type="text" class="form-control" id="" placeholder="Escribe tu apellido">
+									    <input type="text" class="form-control" id="apellido" placeholder="Escribe tu apellido">
 								    </div>
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
@@ -45,16 +48,6 @@
 								</div>
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-				            		<div class="input-group">
-										<label class="input-group-addon">Foto:</label>
-										<input type="file" class="form-control" id="">
-									</div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-		          			</div>
 							<div class="form-group">
 								<div class="col col-xs-1 col-sm-3 col-md-1"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-10">
@@ -98,30 +91,6 @@
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 								<div class="col col-xs-10 col-sm-6 col-md-6">
 									<div class="input-group">
-										<label class="input-group-addon"><span class="glyphicon glyphicon-home "></span></label>
-									    <input type="text" class="form-control" id="" placeholder="Colonia">
-								    </div>
-								</div>
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-2 col-md-2"></div>
-							    <div class="col col-xs-10 col-sm-8 col-md-8">
-							    	<div class="input-group">
-								      	<label class="input-group-addon">Calle:</label>
-								      	<input type="text" class="form-control" id="">
-								      	<label class="input-group-addon">No. Int:</label>
-								      	<input type="text" class="form-control" id="">
-								      	<label class="input-group-addon">No. Ext:</label>
-								      	<input type="text" class="form-control" id="">
-								    </div>
-							    </div>
-							    <div class="col col-xs-1 col-sm-2 col-md-2"></div>
-							</div>
-							<div class="form-group">
-								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
-								<div class="col col-xs-10 col-sm-6 col-md-6">
-									<div class="input-group">
 										<label class="input-group-addon"><span class="glyphicon glyphicon-lock "></span></label>
 									    <input type="password" class="form-control" id="" placeholder="Contraseña">
 								    </div>
@@ -152,7 +121,7 @@
 							    <div class="col col-xs-10 col-sm-6 col-md-8">
 							    	<div class="input-group">
 										<label class="input-group-addon"><span class="glyphicon glyphicon-credit-card"></span></label>
-								      	<input type="text" class="form-control" id="" placeholder="No. de Tarjeta">
+								      	<input type="text" class="form-control" id="" placeholder="Número de Tarjeta">
 								      	<label class="input-group-addon">CVV</label>
 								      	<input type="number" class="form-control" id="">
 								    </div>
@@ -190,11 +159,12 @@
 							<div class="form-group text-right">
 								<div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							    <div class="col col-xs-10 col-sm-6 col-md-6">
-							      <a href="" class="btn btn-default">Crear Cuenta</a>
+							      
 							    </div>
 							    <div class="col col-xs-1 col-sm-3 col-md-3"></div>
 							</div>
 						</form>
+						<button type="submit" onclick="registroUsuario()" class="btn btn-default">Registrarse</button>
 	                </div>
 				</div>	
 				<div class="col col-xs-0 col-sm-1 col-md-3">
